@@ -1,0 +1,125 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings", "Sup", "What's up", "What's good"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Glooks"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure", "You got it"],
+    "context": [""]
+  },
+  {"tag": "options",
+    "patterns": ["How you could help me?","What are your functions","What are your functionalities", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+    "responses": ["I am JAIC, Jasper Artificial Intelligence Chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Analyze the RSI of stock prices and predicting its next day price \n 3. For suggestions to help me improve, contact Dowens "],
+    "context": [""]
+  },
+
+  {"tag": "activity",
+    "patterns": ["what are you doing", "what are you up to"],
+    "responses": ["Talking to you, obviously"]
+  },
+  {"tag": "age",
+    "patterns": ["how old are you","when were you made","what is your age"],
+    "responses": ["I was born yesterday", "I'm as old as you want me to be", "Im fresh out the womb of Dowens' mind"]
+  },
+  {"tag": "no",
+    "patterns": ["no", "nope", "nah"],
+    "responses": ["ok"]
+  },
+  {"tag": "nicetty",
+    "patterns": ["it was nice talking to you", "good talk"],
+    "responses": ["It was nice talking to you as well! Come back soon!"]
+  },
+  {"tag": "appreciate",
+    "patterns": ["You are awesome", "you are the best", "you are great", "you are good"],
+    "responses": ["Thanks"]
+  },
+  {"tag": "",
+    "patterns": [""],
+    "responses": [""]
+  },
+  {"tag": "Account format",
+    "patterns": ["Why is my account in the format of [firstintial+lastname+number] rather than [firstname.lastname] or [firstinitial+lastname+number+.student]?", "Why is my username [firstinitial+lastname+number] instead of [firstname.lastname] or [firstinitial+lastname+number+.student]?", "Why is my account formatted as [firstinitial+lastname+number] rather than [firstname.lastname] or [firstinitial+lastname+number+.student]?", "Why is the format of my account [firstinitial+lastname+number] rather than [firstname.lastname] or [firstinitial+lastname+number+.student]?"],
+    "responses": ["We've adopted a new standard naming convention. Accounts that were created before the new naming convention will remain intact and will function as they should. All new accounts (faculty, administrators, staff, students, etc.) going forward will follow the new standard naming convention: [firstintial+lastname+number].\n\nIf you would like to set up an alias for your account, please send an email to its@manhattan.edu and we will forward your request to the appropriate group for processing. \n\nHint: This can only be done for employees."]
+  },
+  {"tag": "Can't Log In",
+    "patterns": ["I'm having trouble accessing my account. How should I proceed?", "I'm having trouble logging into my account. What should I do?", "I'm having difficulty accessing my account. What do I do?", "I can't log into my account", "Why can't I log into my account?", "I need help logging into my account"],
+    "responses": ["Below are some of the common reasons why users may receive an error message when logging in to their JasperNet email account: \n 1. Be sure that you are typing the correct password for your JasperNet ID. \n 2. If you need to reset your password (and you have a personal email address on record), you can do so at: start.manhattan.edu. \n If you are experiencing strange behavior when attempting to log in to the portal, please try closing the browser down completely and then logging in to a JasperNet service by typing in your JasperNet ID in all lowercase. For example, if you logged in as 'Training.User1' you might have trouble logging into the Portal, but if you log in as 'training.user1' (in all lowercase) you shouldn't have any issues."]
+  },
+  {"tag": "How to Update your Personal Email",
+    "patterns": ["I want to change my personal email address that is on file with the school. How do I do that?", "I'd like to update my personal email address on file with the school. How do I go about doing that?", "I'd like to change my personal email address on file with the school. What should I do?", "I would like to update my personal email address on file with the school. How do I go about doing this?", "I would like to update my personal email", "I would like to change my personal email on file", "How do I go about changing my personal email on file"],
+    "responses": ["1. Please visit the Self Service Email Page to access the page that allows you to update your personal email address. \n If an email shows up under 'Personal Email Address', click on that email. Follow the same rule for the 'Parent' email addresses. \nIf 'Personal Email Address' does not come up, select 'Personal Email Address' from the drop down next to 'Type of E-mail to Insert'.  Then click the 'Submit' button. Please follow the same instructions if 'Parent' email does not come up. \n 2. Type your email in the field that states 'URL'. \n Note that you must only enter one email in each email field. \n 3. Select the Submit button.\n\n If you have any further trouble, please contact us at ITS@manhattan.edu or (718) 862-7973."]
+  },
+  {"tag": "How long do I have access to my account",
+    "patterns": ["How long do I get to keep access to my account?", "How long do I have access to my account?", "How long will I have access to my account?", "How long will I be able to access my account?", "how long do I keep my account?"],
+    "responses": ["As a student, your account will be kept for one year from the last time you were registered for classes."]
+  },
+  {"tag": "Student Worker Accounts",
+    "patterns": ["If I work here and I am also a student, do I need two accounts?", "Do I need two accounts if I work here and am also a student?", "Do student workers need two accounts?", "Do student workers need two accounts?"],
+    "responses": ["People at Manhattan College only have one account associated with them. If you are a student and you begin to work here or vice versa, then your account will be updated accordingly."]
+  },
+  {"tag": "Free DUO",
+    "patterns": ["Is the Duo app free?", "Is the Duo app free to use?", "Is the Duo app free to use?", "Does the Duo app cost anything to use?", "Is the Duo app available for free?", "Is the Duo app completely free to use?"],
+    "responses": ["Yes! There is no cost associated with downloading Duo."]
+  },
+  {"tag": "DUO Opt out",
+    "patterns": ["Can I opt out of Duo? ", "Is it possible to opt out of Duo?", "Is it possible to opt out of Duo?", "Is it possible to cancel Duo?", "Is it possible for me to opt out of Duo?", "Is it possible to unsubscribe from Duo?"],
+    "responses": ["No. Once you are enrolled in Duo there is no way to opt out. "]
+  },
+  {"tag": "Push Notifications Enabling",
+    "patterns": ["Why enable Push notifications?", "Why should you enable Push notifications?", "Why should you enable Push notifications?", "What are the benefits of enabling Push notifications?", "Why should Push notifications be enabled?"],
+    "responses": ["Enabling push notifications is easier, quicker, and more secure than receiving a text message or phone call."]
+  },
+  {"tag": "MFA Difficulty",
+    "patterns": ["Is MFA hard?", "Is MFA difficult?", "How hard is MFA?", "Is it difficult to setup MFA?"],
+    "responses": ["No. The majority of employees that have enabled MFA have provided feedback indicating that it was much easier than expected."]
+  },
+  {"tag": "Using DUO for MFA",
+    "patterns": ["Why do I have to use Duo for MFA?", "Why am I required to use Duo for MFA?", "Why am I required to use Duo for MFA?", "Why do I have to use Duo for MFA?", "Why must I use Duo for MFA?"],
+    "responses": ["Using MFA ensures that sensitive information is protected when you access services such as Banner. \n It does this by requiring a secondary means of allowing access to your account such as a cell phone, tablet, security key. \n Using Duo negates the need for VPN and will allow usage of Banner and other services that require you to be hard wired to the College's network."]
+  },
+  {"tag": "MFA Affect",
+    "patterns": ["How will enabling MFA affect me?", "What impact will enabling MFA have on me?", "What impact will enabling MFA have on me?", "What effect will allowing MFA have on me?", "What effect will enabling MFA have on me?"],
+    "responses": ["Once enabled, MFA will be required to access ALL Jaspernet Services connected to Single Sign On (SSO). \n This includes, but is not limited to GSuite (Gmail, Docs, etc), Moodle, Self Service, etc). Please note: After setting up a Duo Account, you will need to wait 10 minutes for it to sync."]
+  },
+  {"tag": "MFA Device",
+    "patterns": ["Do I have to use my personal device?", "Do I have to bring my own device?", "Do I have to bring my own device?", "Is it necessary for me to bring my own device?", "Do I have to use my own device?", "Is it required that I bring my own device?"],
+    "responses": ["No, but using your personal device is the most convenient and recommended option as most people have their personal devices on them at all times. \n However, you can use a Manhattan College owned-device such as a cell-phone or tablet for authentication instead. \n If you do not have a college-owned device, you can use a Duo Hardware Token which can be put on your key chain so it stays with you wherever you are."]
+  },
+  {"tag": "MFA Devices",
+    "patterns": ["What if I have more than one device?", "What if I have multiple devices?", "What if I have multiple devices?", "What if I have several devices?", "What if I have more than one device?"],
+    "responses": ["No problem! If you have more than one device please refer to these directions for adding another device. \n 1. To start enrolling a new device, click Add a new device. If you don't see this link then your organization may not have enabled this functionality. Contact your Duo administrator to have a new device added. \n 2. Choose an authentication method and complete two-factor authentication to begin adding your new device.\n\nIf you're adding a new device to replace one that you previously activated for Duo Push, don't select the Duo Push authentication method on this page unless you still have the original device. If you don't have the original device, but you have a new device with the same phone number, then you can authenticate with a phone call or SMS passcode.\n\nYou can't add a new device from this page if you do not have access to any of your previously enrolled authentication devices; you'll need to contact your Duo administrator for help. \n 3. Proceed with the device enrollment process as shown in the initial Enrollment Guide. As an example, let's add another phone. \n 4. Enter and confirm the second phone's number. \n 5. Select the new phone's operating system. \n 6. Install Duo Mobile on the new phone and scan the QR code to activate. \n 7. The new phone is added and listed with your other enrolled devices. You can click Add another device to start the enrollment process again and add another authenticator. \n 8. Click the Device Options button next to any of your enrolled devices to view the actions available for that type of device. You can Reactivate Duo Mobile for an enrolled smartphone, Change Device Name for any type of phone, or delete any authentication device. \n 9. Clicking Change Device Name will open up an interface to change the display name of your phone (hardware tokens can't be renamed). Type in the new name and click Save. \n 10. After successfully modifying your phone's name, not only will you see this from now on when managing devices, but it will also be how your phone is identified in the authentication dropdown. \n 11. If you want to continue using your original device with Duo, you can specify which of your devices you would like to be the default. Click the Default Device: drop-down menu and pick your default device for authentication. Click Save if you're done making changes. \n 12. If this is the device you'll use most often with Duo then you may want to enable automatic push requests by changing the When I log in: option and changing the setting from \"Ask me to choose an authentication method\" to \"Automatically send this device a Duo Push\" or \"Automatically call this device\" and click Save. With one of the automatic options enabled Duo automatically sends an authentication request via push notification to the Duo Mobile app on your smartphone or a phone call to your device (depending on your selection). \n 13. If your new device is replacing the one you previously enrolled, you can remove the device you won't be using any more for authentication. Click the Device Options button next to the device you want to remove, and then click the trash can button to delete that device."]
+  },
+  {"tag": "Multiple MC Accounts",
+    "patterns": ["What if I have more than one MC account?", "What if I have multiple MC accounts?", "What if I have multiple MC accounts?", "What if I have more than one MC account?", "What if I have multiple accounts"],
+    "responses": ["If you have more than one Manhattan College account, you can use the same device to set each one up. For example, if you use your cell phone number for one MC account you may use the same cell number for a second MC account."]
+  },
+  {"tag": "MFA Restore",
+    "patterns": ["Is there a restore feature if I get a new phone?", "Is there a way to restore my phone if I get a new one?", "Is there a way to restore my phone if I get a new one?", "Is it possible to restore my phone if I get a new one?", "Is it possible to restore my phone if I purchase a new one?", "Is there a restore option if I get a new phone?"],
+    "responses": ["Yes. There is a feature called Instant Restore that works with both Andriod and Apple devices. Please use this link for direction on how to enable this feature for your device."]
+  },
+  {"tag": "MFA Data Usage",
+    "patterns": ["Will this use data on my device?", "Will this consume data from my device?", "Is this going to consume data on my device?", "Will this use up data on my device?", "Will this use any of the data on my device?", "Will this consume data on my device?", "Will this consume data from my device?"],
+    "responses": ["Each push notification will use very little data."]
+  },
+  {"tag": "MFA Internet Access",
+    "patterns": ["What if I have no Internet access?", "What if I don't have Internet access?", "What if I don't have access to the Internet?", "What if I dont have internet access?", "What if I dont have any internet?"],
+    "responses": ["If you do not have access to Internet, you can use a generated pass code from the homepage of the Duo app (Yubikey security key and Duo Hardware Token do not require data). \n The pass code will still be accessible even if you do not have access to the Internet."]
+  },
+  {"tag": "MFA VPN",
+    "patterns": ["Will I have to use VPN with Duo MFA?", "Will I have to use a VPN in conjunction with Duo MFA?", "Is it necessary to use a VPN with Duo MFA?", "Is it necessary to use a VPN in conjunction with Duo MFA?", "Will I need to use a VPN in conjunction with Duo MFA?", "Will I need to use a VPN with Duo MFA?"],
+    "responses": ["No, for the time being, with Duo MFA you will only have to authenticate your login. You will not need VPN to access services such as Banner. \n However, the VPN requirement will be removed after ALL BANNER USERS have migrated to MFA - circa 3/1/2020. "]
+  },
+  {"tag": "MFA Request Token",
+    "patterns": ["How do I request a Duo Hardware Token?", "How can I obtain a Duo Hardware Token?", "What is the process for requesting a Duo Hardware Token?", "How do I get a Duo Hardware Token?", "How do I get a Duo Hardware Token?"],
+    "responses": ["Simply notify ITS via emailing its@manhattan.edu or through our service catalogue requesting a Duo Hardware Token.  Note that Duo Hardware Tokens require an approval process. \n They are typically only provided to clients who do not have a compatible college provided device."]
+  }
+]
+}
